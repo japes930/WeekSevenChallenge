@@ -89,7 +89,7 @@ public class HomeController {
         else{
             userService.saveUser(user);model.addAttribute("message","User Account Created");
         }
-        return "list";
+        return "login";
     }
 
 
