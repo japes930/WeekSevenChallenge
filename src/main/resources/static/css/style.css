@@ -1,0 +1,112 @@
+/******************************************/
+/*               For /list               */
+/******************************************/
+#list-body{
+    background: url("https://res.cloudinary.com/japes930/image/upload/v1563473709/OutsideWall_w3wvmk.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#list-body h1{
+    padding-top:10rem;
+    color:whitesmoke;
+    font-size:10rem;
+}
+.list-row{
+    min-height:60vh;
+    margin-top:2rem;
+}
+
+.content{
+    background: rgba(0, 0, 0, 0.5);
+    padding:1.5rem;
+    border-radius:5px;
+    margin-top: 2rem;
+}
+
+.post{
+    background-color:#f7f5f2;
+    margin-top:3rem;
+    padding:0.5rem;
+    border-radius:3px;
+}
+
+.link-col{
+    text-align:right;
+}
+
+/******************************************/
+/*               For form                 */
+/******************************************/
+#form-body{
+    background: url("https://res.cloudinary.com/japes930/image/upload/v1563473709/BathroomWall_ljvyw5.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+form{
+    width:50rem;
+}
+
+#form-content{
+    position:absolute;
+    top:32rem;
+    left:47rem;
+}
+
+form h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+form input{
+    /*width:50%;*/
+
+}
+input:invalid {
+    background-color: red;
+}
+
+form .row {
+    padding-bottom: 1rem;
+}
+
+form span{
+    position:absolute;
+    right:-21rem;
+    padding:0.5rem;
+    color:white;
+    font-size:1.5rem;
+    /*text-decoration:underline;*/
+    /*text-decoration-style:wavy;*/
+    /*border:2px dashed white;*/
+    background: rgba(0, 0, 0, 0.4)
+}
+#msg_title{
+    font-family: 'Permanent Marker', cursive;
+    color:black;
+    font-size:5rem;
+    position:absolute;
+    top:5rem;
+    right:20rem;
+    text-decoration: underline;
+}
+
+/*.box{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between*
+    }
+ */
+
+
+/******************************************/
+/*              Show Message              */
+/******************************************/
+
+#show-body{
+    background: url("https://res.cloudinary.com/japes930/image/upload/v1563473709/BathroomWall_ljvyw5.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}

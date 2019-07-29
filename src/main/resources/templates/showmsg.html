@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" th:href="@{css/style.css}">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+</head>
+<body id="show-body">
+<!--<div th:insert="base :: nav"></div>-->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <a href="/">Show All posts</a><br/>
+            <div>
+                <h3 th:text="${message.title}"></h3>
+                <p th:text="${message.content}"></p>
+                <p th:inline="text">-[[${message.postedBy}]] [[${message.postedDate}]]</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
