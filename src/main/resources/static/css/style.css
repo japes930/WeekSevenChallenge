@@ -8,13 +8,13 @@
 }
 
 #list-body h1{
-    padding-top:10rem;
+    padding-top:7rem;
     color:whitesmoke;
     font-size:10rem;
 }
 .list-row{
     min-height:60vh;
-    margin-top:2rem;
+    /*margin-top:2rem;*/
 }
 
 .content{
@@ -50,7 +50,7 @@ form{
 #form-content{
     position:absolute;
     top:32rem;
-    left:47rem;
+    left:24rem;
 }
 
 form h2{

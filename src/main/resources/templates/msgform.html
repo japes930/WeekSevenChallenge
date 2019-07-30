@@ -30,8 +30,8 @@
                     </div>
                     <div class="row">
                         <h2 class="col-3">Content:</h2>
-                        <textarea class="col-7" type="text" th:field="*{content}" rows="4"></textarea>
-                        <span th:if="${#fields.hasErrors('content')}" th:errors="*{title}"></span>
+                        <input class="col-7" type="text" th:field="*{content}" rows="4"></input>
+                        <span th:if="${#fields.hasErrors('content')}" th:errors="*{content}"></span>
                     </div>
                     <div class="row">
                         <h2 class="col-3">Name:</h2>
